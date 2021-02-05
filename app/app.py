@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
   return """
-  <h1>Python Flask in Docker!</h1>
+  <h1>Welcome to Simplyfi Python Flask in Docker!</h1>
   <p>A sample web-app for running Flask inside Docker.</p>
   """
 # Finally, let's launch the app if the script is invoked as the main program:
